@@ -29,47 +29,32 @@ The frequency of oscillation is given by fo = 1 /  6 (2RC ).If an invertin
 ---
 ## CIRCUIT DIAGRAM
 RC PHASE SHIFT OSCILLATOR
-<img width="952" height="976" alt="image" src="https://github.com/user-attachments/assets/dd2b5792-8183-4214-9245-8373279357f6" />
+![WhatsApp Image 2025-12-05 at 21 29 20_f1acb9f8](https://github.com/user-attachments/assets/c5fbbba8-8f5b-48fd-8d6d-8c27c03ebca9)
 
-
-
----
 
 ## MODEL GRAPH
-<img width="414" height="324" alt="image" src="https://github.com/user-attachments/assets/3389b740-b70e-4148-9bf9-e5319627260f" />
+![WhatsApp Image 2025-12-05 at 21 29 21_4496d79f](https://github.com/user-attachments/assets/b97ee80d-c0a3-4c12-96ea-086aa1c8e870)
+
 
 ## DESIGN
 
 ## RC PHASE SHIFT OSCILLATOR
-fo = 1 /  6 (2RC) Rf  29 R1
-C = 0.01F, fo = 200 Hz.
-R = 1 /  6 (2  f C ) = 3.3 k
-Therefore, Choose R = 3.3k
-To prevent loading,
-R1   10 R
-R1 =10 R = 33 k. Rf = 29R1=1MΩ
+![WhatsApp Image 2025-12-05 at 21 29 21_641ce81b](https://github.com/user-attachments/assets/464ec7b1-78ec-4c89-8798-33aa742de111)
+![WhatsApp Image 2025-12-05 at 21 29 22_72e05aa8](https://github.com/user-attachments/assets/2811774b-9be0-4a73-90d8-ba441e6c3d7d)
 
----
+
 ## PROCEDURE
 1.	Connect the circuit as shown in fig. With the design values.
 2.	Observe the output waveforms using a DSO.For obtaining sine wave adjust Rf.
 3.	Measure the output wave frequency and amplitude.
 ---
 ## TABULATION/OBSERVATION
+![WhatsApp Image 2025-12-05 at 21 29 22_2098ce82](https://github.com/user-attachments/assets/0efa933a-79a0-488d-b9fe-3fa8d4415908)
 
-
-| S.No | Amplitude (Volts) | Time Period (ms) | Frequency (Hz) |
-|------|--------------------|------------------|----------------|
-| 1    |                    |                  |                |
-| 2    |                    |                  |                |
-| 3    |                    |                  |                |
-| 4    |                    |                  |                |
-| 5    |
----
 ## OUT PUT WAVEFORM AND DISCUSSION 
+![WhatsApp Image 2025-12-05 at 21 29 23_ea75af45](https://github.com/user-attachments/assets/82c76e0b-806e-43bc-8049-e22951d53ffd)
 
 
----
 ## THEORY
  ##WIEN BRIDGE
 A bridge circuit with two components connected in series and parallel combination is used to archived the required of phase shift of 0o. When the bridge is balanced the phase shift of 0o is achieved and the feedback signal is connected to the positive terminal; of Op-amp. So the Op-amp is acting as a non-inverting amplifier and the feedback network do not provide any phase shift.
@@ -90,30 +75,17 @@ The frequency of oscillation is given by fo = 1/2πRC
 
 ## CIRCUIT DIAGRAM
 WIEN BRIDGE OSCILLATOR
-<img width="570" height="480" alt="image" src="https://github.com/user-attachments/assets/be71f26e-36ad-4677-8117-51362146cbbd" />
+![WhatsApp Image 2025-12-05 at 22 03 35_fa8ce621](https://github.com/user-attachments/assets/539e9c94-916f-4eb8-90e2-becd3245096e)
 
-
----
 ## MODEL GRAPH
-<img width="414" height="325" alt="image" src="https://github.com/user-attachments/assets/1cc285f7-05c7-4b65-af59-b28cf039fcd3" />
+![WhatsApp Image 2025-12-05 at 22 03 35_6d42f84a](https://github.com/user-attachments/assets/84eed262-db07-49ba-b049-f65fa9b78aa6)
 
----
 
 ## DESIGN
 
 ## WIEN BRIDGE OSCILLATOR
-Select frequency f0 = 1KHz
-fo = 1/2πRC
-A = 1+(Rf / R1) = 3.
-To find R & Rf.
-Therefore Rf = 2R1 & assume C = 0.1μf & find R from
-R=1/2πfC
-=1/2*3.14*1*103*0.1*10-6
-= 1.59KΩ.
-Assume R1 = 10R & find Rf from Rf = 2R1
-Therefore R1 = 1.5K *10=15KΩ
-Rf = 15K *2=30KΩ
----
+![WhatsApp Image 2025-12-05 at 21 29 24_66a22ff7](https://github.com/user-attachments/assets/65c4e439-4c11-4867-947c-d2c4753cd2d9)
+![WhatsApp Image 2025-12-05 at 21 29 24_bf7bc910](https://github.com/user-attachments/assets/f7afcb65-bada-47c4-912e-beb566e3297a)
 
 ## PROCEDURE
 
@@ -123,20 +95,12 @@ Rf = 15K *2=30KΩ
 4.	The output voltage is obtained in the CRO and the input and output voltage waveforms are plotted in a graph sheet.
 ---
 ## TABULATION/OBSERVATION
+![WhatsApp Image 2025-12-05 at 21 29 25_f92ae657](https://github.com/user-attachments/assets/65205fd5-4049-4960-815c-5eda00276ac4)
 
-
-| S.No | Amplitude (Volts) | Time Period (ms) | Frequency (Hz) |
-|------|--------------------|------------------|----------------|
-| 1    |                    |                  |                |
-| 2    |                    |                  |                |
-| 3    |                    |                  |                |
-| 4    |                    |                  |                |
-| 5    |
----
 ## OUT PUT WAVEFORM AND DISCUSSION 
+![WhatsApp Image 2025-12-05 at 21 33 03_7fc72cd4](https://github.com/user-attachments/assets/a17d3a25-e588-4276-afe3-c93396a5aeb6)
 
 
----
 ## RESULT:
 
 Thus the RC Phase Shift and Wien Bridge oscillators are designed and tested using op-amp IC 741.
